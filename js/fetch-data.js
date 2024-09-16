@@ -37,7 +37,6 @@ async function fetchGoogleSheetData() {
         }
 
         const jsonData = csvToJson(data);
-        console.log(jsonData);
         renderMovies(jsonData);
 
     } catch (error) {
